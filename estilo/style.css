@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+    --fonte-padrao: verdana, cursive, sans-serif;
+    --fonte-poema: "Sriracha", cursive; 
+    --fonte-cabeca: "Passion One", sans-serif;
+
+    --imagem-1: url("imagens/background001.jpg")
+    --imagem-2: url("imagens/background002.jpg")
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(255, 251, 251);
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    font-family: var(--fonte-cabeca);
+    font-size: 30px;
+}
+
+header > p{
+    color: rgb(255, 250, 250);
+    text-align: center;
+    margin: 0px;
+    font-family: var(--fonte-cabeca);
+    font-size: 20px;
+}
+
+header > p > a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    padding: 30px;
+    padding-bottom: 2px;
+    font-variant: small-caps;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    line-height: 40px;
+    font-family: var(--fonte-poema);
+    font-size: 20px;
+
+}
+
+.normal{
+    background-color: rgb(255, 255, 255);
+}
+
+.imagem{
+    background-color: rgb(255, 255, 255);
+    background-image: url("../imagens/background001.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 350px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.26);
+    color: rgb(255, 248, 248);
+    display: inline-block;
+    margin: -0.5px;
+    padding: 50px;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+#img2{
+    background-color: rgb(255, 255, 255);
+    background-image: url("../imagens/background002.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    margin: 50px;
+}
+
+p a{
+    color: white;
+    text-align: center;
+}
+
+p a:hover{
+    color: rgb(0, 250, 250);
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: var(--fonte-padrao);
+}
